@@ -15,6 +15,7 @@
             <RowDefinition Height="Auto"/>
             <RowDefinition Height="Auto"/>
             <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
             <RowDefinition/>
             <RowDefinition Height="10"/>
         </Grid.RowDefinitions>
@@ -37,14 +38,21 @@
         <Border Grid.Column="1" Grid.Row="5" BorderBrush="Black" BorderThickness="1">
             <TextBlock FontSize="20" TextAlignment="Center">
                 More info
-                <Hyperlink NavigateUri="https://www.github.com/SpaceBeeGaming/" RequestNavigate="Hyperlink_RequestNavigate">Github.com</Hyperlink>
+                <Hyperlink NavigateUri="https://github.com/SpaceBeeGaming/ContactManager" RequestNavigate="Hyperlink_RequestNavigate">Github.com</Hyperlink>
             </TextBlock>
         </Border>
 
         <Border Grid.Column="1" Grid.Row="6" BorderBrush="Black" BorderThickness="1">
-            <TextBlock TextAlignment="Center" FontSize="20" TextWrapping="Wrap"> All icons made by
-                <Hyperlink NavigateUri="https://freepik.com" RequestNavigate="Hyperlink_RequestNavigate">Freepik</Hyperlink>
-                from <Hyperlink NavigateUri="https://flaticon.com" RequestNavigate="Hyperlink_RequestNavigate">www.flaticon.com</Hyperlink>
+            <TextBlock TextAlignment="Center" FontSize="20" TextWrapping="Wrap">
+                Main app icon made by
+                <Hyperlink NavigateUri="https://icons8.com" RequestNavigate="Hyperlink_RequestNavigate">icons8.com</Hyperlink>
+                (<Hyperlink NavigateUri="https://creativecommons.org/licenses/by-nd/3.0/" RequestNavigate="Hyperlink_RequestNavigate">CC BY-ND 3.0</Hyperlink>)
+            </TextBlock>
+        </Border>
+
+        <Border Grid.Column="1" Grid.Row="7" BorderBrush="Black" BorderThickness="1">
+            <TextBlock TextAlignment="Center" FontSize="20" TextWrapping="Wrap"> User icon
+                (<Hyperlink NavigateUri="https://creativecommons.org/publicdomain/zero/1.0/" RequestNavigate="Hyperlink_RequestNavigate">CC0 1.0</Hyperlink>)
             </TextBlock>
         </Border>
 
